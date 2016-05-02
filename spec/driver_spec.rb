@@ -55,15 +55,4 @@ describe 'Unobtainium::Kramdown::Driver' do
     expect(json).not_to be_nil
     expect(json).not_to be_empty
   end
-
-  #  it "accepts and interprets configuration" do
-  #    drv = ::Unobtainium::Driver.create(:kramdown)
-  #
-  #    drv.parse_method = :XML
-  #    drv.options = ::Nokogiri::XML::ParseOptions::STRICT | \
-  #                  ::Nokogiri::XML::ParseOptions::PEDANTIC
-  #
-  #    test_uri = "spec/data/foo.html"
-  #    expect { drv.goto(test_uri) }.to raise_error(Nokogiri::XML::SyntaxError)
-  #  end
 end
