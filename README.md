@@ -25,3 +25,6 @@ drv.goto('http://finkhaeuser.de')
 # Any other methods are delegated to kramdown, such as e.g. `#to_html`
 doc = drv.to_html
 ```
+
+You probably will not want to parse the output of a converter, though. Use
+(drv.root)[http://kramdown.gettalong.org/rdoc/Kramdown/Element.html] instead.
