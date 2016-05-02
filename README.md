@@ -20,7 +20,7 @@ drv = driver(:kramdown)
 
 # goto is provided by this gem, and wraps `open-uri`. Any URI accepted by that
 # will work here.
-drv.goto('http://finkhaeuser.de')
+drv.goto('README.md')
 
 # Any other methods are delegated to kramdown, such as e.g. `#to_html`
 doc = drv.to_html
