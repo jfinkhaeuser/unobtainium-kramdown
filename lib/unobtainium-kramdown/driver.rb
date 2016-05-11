@@ -134,4 +134,5 @@ end # module Unobtainium
 
 ::Unobtainium::Driver.register_implementation(
     ::Unobtainium::Kramdown::Driver,
-    __FILE__)
+    __FILE__
+)
