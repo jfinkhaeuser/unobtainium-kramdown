@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    unobtainium-kramdown (0.1.0)
+    unobtainium-kramdown (0.2.0)
       unobtainium (~> 0.13)
 
 GEM
